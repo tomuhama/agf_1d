@@ -18,6 +18,6 @@ plot_transmissions([agf_homo,agf_hetero1,agf_hetero2], pic_name="agf_test.png")
 
 ![AGF 1D-chain](./agf_test.png)
 
-参考
+## 参考
 
 W. Zhang, T.S.Fisher & N.Mingo, "The Atomistic Green's Function Method: An Efficient Simulation Approach for Nanoscale Phonon Transport", Numerical Heat Transfer, Part B: Fundamentals, 51:4, 333-349, 2007.
