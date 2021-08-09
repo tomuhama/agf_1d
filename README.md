@@ -18,17 +18,16 @@ plot_transmissions([agf_homo,agf_hetero1,agf_hetero2], pic_name="agf_test.png")
 
 ![AGF 1D-chain](./agf_test.png)
 
-上は解析的な結果。次はiterativeなsurface green's functionの計算結果。右の数字はiterationの最大値。$0^+$の表式によって収束性が違うが、絶対値にはそこまで影響しなさそう。
+上は解析的な結果。次はiterativeなsurface green's functionの計算結果。右の数字はiterationの最大値。<img src="https://latex.codecogs.com/gif.latex?0^+"/>の表式によって収束性が違うが、絶対値にはそこまで影響しなさそう。
 
 ![AGF 1D-chain](./agf_homo_delta1_iterative_compare.png)
 ![AGF 1D-chain](./agf_homo_delta3_iterative_compare.png)
 
-2枚目のlegendはHeteroとなっているが、実際はHomo。$0^+=\delta(\omega)$について、
+2枚目のlegendはHeteroとなっているが、実際はHomo。<img src="https://latex.codecogs.com/gif.latex?0^+=\delta(\omega)"/>について、
 
-<img src="https://latex.codecogs.com/gif.latex?\delta(\omega)=\delta_0\omega^2\left(1-\frac{\omega}{\omega_{max}}\right)" />
+<img src="https://latex.codecogs.com/gif.latex?\delta(\omega)=\delta_0\omega^2\left(1-\frac{\omega}{\omega_{max}}\right)"/>
 
-であり、$\delta_0$の値について1つ目は$10^{-1}$、2つ目は$10^{-3}$とした。論文では$10^{-3}$がよいとされているが、収束性は圧倒的に$10^{-1}$がよい。
-
+であり、<img src="https://latex.codecogs.com/gif.latex?\delta_0"/>の値について1つ目は1e-1、2つ目は1e-3とした。論文では1e-3がよいとされているが、収束性は圧倒的に1e-1がよい。
 
 
 ## 参考
