@@ -29,7 +29,7 @@ plot_transmissions([agf_homo,agf_hetero1,agf_hetero2], pic_name="agf_test.png")
 
 であり、<img src="https://latex.codecogs.com/gif.latex?\delta_0"/>の値について1つ目は1e-1、2つ目は1e-3とした。論文では1e-3がよいとされているが、収束性は圧倒的に1e-1がよい。
 
-次はDecimation法の結果。mc:md=1:2で計算。
+次はDecimation法の結果。mc:md=1:2で計算。図ではiterativeとなっているけれど実際はDeimation法で計算している。
 
 ![](./agf_hetero_decimation_delta1_compare.png)
 
